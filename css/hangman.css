@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(243, 243, 81);
+}
+.header .hangman h1{
+    font-size: 2rem;
+    margin: auto;
+    font-family: 'Bree Serif', serif;
+}
+.header .hangman img{
+    width: 15%;
+}
+.hangman{
+    display: flex;
+    justify-content: space-between;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+.middle button{
+    width: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-family: 'Patua One', cursive;
+}
+.enter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+}
+.answer h2{
+    letter-spacing: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+.start button{
+    padding: 5px 70px;
+    font-family: 'Crete Round', serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    border-radius: 5px;
+}
